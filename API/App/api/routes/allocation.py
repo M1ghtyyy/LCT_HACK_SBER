@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 from API.App.api.routes.auth import get_current_user_from_token
 from API.App.core.db import get_db
 load_dotenv()
-
+#aaaa
 allocation_router = APIRouter()
 
 @allocation_router.get("/", response_model=List[ShowAllAllocationSerializer])
